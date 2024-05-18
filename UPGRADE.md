@@ -1,4 +1,4 @@
-# Upgrading Instructions
+# Yii Strings Upgrading Instructions
 
 These notes highlight changes that could break your application when you upgrade package from one version to another.
 
