@@ -135,9 +135,12 @@ Overall the inflector has the following method groups.
 
 ### Case conversion
 
-- pascalCaseToId
-- toPascalCase
-- toCamelCase
+- pascalCaseToId 
+  - "PostTag" is converted to "post-tag"
+- toPascalCase `ToPascalCase`
+  - "Post tag" is converted to "PostTag"
+- toCamelCase `toCamelCase`
+  - "Post tag" is converted to "postTag"
 
 ### Words and sentences
 
